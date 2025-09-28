@@ -1,0 +1,66 @@
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* better than fixed height */
+  margin: 0;
+  padding: 1rem; /* stops content from hitting screen edges */
+}
+
+.container {
+  background: #fff;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px; /* responsive max width */
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  max-width: 120px; /* keeps them from stretching too much */
+  padding: 0.6rem;
+  margin: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.8rem 1.4rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #0078ff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  width: 100%; /* button spans nicely on mobile */
+  max-width: 200px;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+.result {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #222;
+  background: #f1f5ff;
+  padding: 1rem;
+  border-radius: 8px;
+  word-wrap: break-word; /* prevent overflow */
+}
