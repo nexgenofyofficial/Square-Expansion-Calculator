@@ -9,7 +9,5 @@ const calculate = () => {
   document.getElementById("result").innerHTML = `
     <p><b>Expansion:</b> (${a}a+${b}b)<sup>2</sup> <br>  => ${expansion} <br> => ${simplified}</p>
     <p><b>Total:</b> ${total}</p>
-  `;
-  console.log("Testing Github!");
-  
+  `;  
 };
